@@ -1,0 +1,18 @@
+{
+  "clients": [
+    {
+      "name": "few",
+      "phone": "egr",
+      "email": "geger",
+      "company": "rgeger",
+      "id": 1
+    },
+    {
+      "name": "El Brayan",
+      "phone": "8165684",
+      "email": "c@c.com",
+      "company": "Source",
+      "id": 2
+    }
+  ]
+}
