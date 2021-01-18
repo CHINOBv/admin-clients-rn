@@ -23,7 +23,7 @@ const App = () => {
       primary: '#1774f2',
     },
   };
-  console.log(theme);
+  //console.log(theme);
   return (
     <PaperProvider>
       <StatusBar backgroundColor={theme.colors.primary} />

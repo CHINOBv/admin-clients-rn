@@ -12,7 +12,7 @@ import {
 } from 'react-native-paper';
 
 import globalStyles from '../styles/global';
-import {CreateNewClient} from '../utils/fetch';
+import {createNewClient} from '../utils/fetch';
 
 const NewClient = () => {
   const [name, setName] = useState('');
@@ -27,7 +27,7 @@ const NewClient = () => {
       return;
     }
     const client = {name, phone, email, company};
-    await CreateNewClient(client);
+    await createNewClient(client).catch((e) => console.log(e));
   };
 
   return (
